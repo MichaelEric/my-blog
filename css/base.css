@@ -1,0 +1,18 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+}
+body, div, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Microsoft Yahei", "simsun";
+    list-style: none;
+}
+input, img {
+  outline-style: none;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}

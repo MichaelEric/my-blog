@@ -1,0 +1,259 @@
+@charset "UTF-8";
+//引入变量库
+@import "vars";
+//引入方法库
+@import "fucs";
+
+
+/*顶部导航部分*/
+.blog_topBar {
+  background-color: #000;
+}
+.blog_topBar .blog_nav {
+  border:@borderDefault;
+  /*background-color:#333333;*/
+  background: rgba(0,0,0,.1);
+  .marginBottom();
+}
+.container {
+   /*.border();*/
+  /*.height(50px);
+  line-height:@lineHeight;*/
+ }
+.container .nav-header {
+  /*.height(80px);
+  .lineHeight(40px);*/
+}
+.container .navbar-header a {
+  /*.border();*/
+  .height(50px);
+  .lineHeight(23px);
+  .fontSize(26px);
+  .fontFamily();
+}
+.container .nav_btn {
+  .lineHeight(40px);
+  .marginTop(13px);
+}
+.container .navbar-right > li a {
+  text-decoration: none;
+  .height(50px);
+  .lineHeight(25px);
+  .fontSize(18px);
+  .fontFamily();
+}
+.container .navbar-right .dropdown-menu a{
+  text-decoration: none;
+  .textAlign();
+  .height(40px);
+  .lineHeight(35px);
+  .fontSize(16px);
+}
+
+
+/*轮播图部分*/
+
+.blog_banner {
+
+}
+.blog_banner .pc_img {
+  display:@display;
+  .width(100%);
+  .height(450px);
+  background-position: @backreound-position;
+  background-size: @backreound-size;
+  background-repeat: @backreound-repeat;
+}
+.blog_banner .m_img img {
+  .width(100%);
+}
+//信息部分
+
+.blog_info {
+
+}
+.blog_main {
+  /*.padding(30px 10px 30px 10px);*/
+  .paddingTop(30px);
+  .paddingBottom(30px);
+}
+/*.blog_main:first-child .row{
+  !*.paddingBottom(30px);*!
+}*/
+.blog_tester {
+  border: 1px solid #ccc;
+  .marginBottom(20px);
+}
+.blog_tester:hover {
+  .boxShadow();
+  .transition(.5s);
+}
+.blog_tester h3 {
+  .textAlign();
+}
+.blog_tester h3 a {
+  text-decoration: none;
+  .color(#000);
+}
+.blog_tester span {
+  display: block;
+  .textAlign();
+  .color(#000);
+}
+.blog_tester img {
+  .width(100%);
+  .height(200px);
+}
+.blog_tester .body {
+  /*.height(130px);*/
+  /*text-overflow:ellipsis;*/
+  word-break:break-all;
+  padding:15px;
+}
+.blog_tester .moreBtn {
+  .height(50px);
+  /*.paddingTop(10px)*/
+}
+.blog_tester .moreBtn > a{
+  text-decoration: none;
+  display: block;
+  .color();
+  .lineHeight(30px);
+  .textAlign();
+  .width(80px);
+  .height(30px);
+  .border();
+  .radius(5px);
+  .float(right);
+  .marginRight(10px);
+}
+//右侧展示部分
+.aside-widget {
+  .border();
+  .marginTop(30px);
+  .marginBottom(30px);
+  .boxShadow();
+}
+
+.aside-widget header{
+  .height(40px);
+  .backgroundColor();
+}
+.aside-widget h3 {
+  margin: 0;
+  padding: 0;
+  .lineHeight(40px);
+  .marginLeft(10px);
+}
+.aside-widget h3 a {
+  text-decoration: none;
+  .color();
+}
+.aside-widget .body ul {
+  .marginBottom(0);
+}
+.aside-widget .body ul li {
+  border:none;
+}
+.aside-widget .body ul li:hover a{
+  .color(#ffff00);
+  .transition(.5s);
+}
+.aside-widget .body ul li a{
+  text-decoration: none;
+  .color();
+}
+.aside-widget .tags {
+  .height(200px);
+}
+.aside-widget .tags ul li {
+  .float(left);
+  .border();
+  .height(40px);
+  .lineHeight(40px);
+  margin:5px 5px;
+  .radius(5px);
+  padding:0 10px;
+
+}
+.aside-widget .tags ul li:hover {
+  .borderColor();
+}
+//右侧tab栏部分
+.aside-widget .list_title {
+
+}
+
+.aside-widget .list_body {
+
+}
+.aside-widget .list_body .media-left img{
+  .width(64px);
+  .height(64px);
+}
+.aside-widget .list_body .media-body {
+
+}
+.aside-widget .list_body .media-body h4 {
+  font-weight: bold;
+}
+.aside-widget .list_body .media-body p {
+  word-break: break-all;
+}
+
+  //页面底部部分
+.blog_footer {
+  /*.height(200px);*/
+  background-color: #333333;
+  .color(#fff);
+}
+.footer_widget ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.footer_widget header h3 span{
+  display:inline-block;
+  .marginRight(5px);
+}
+
+.footer_widget ul li {
+  .float();
+  /*.width(25%);*/
+  .marginRight(5px);
+  .marginBottom(5px);
+}
+.footer_widget ul li a{
+  display: block;
+  .width(64px);
+  .height(64px);
+  overflow: hidden;
+}
+.footer_widget ul li a img{
+  display: block;
+  .width(64px);
+  .height(64px);
+}
+
+
+.footer_bottom {
+  .height(50px);
+  background-color: #0f0f0f;
+}
+
+
+
+/*.blog_topBar .container div {
+  text-align: @right;
+  line-height:@lineHeight ;
+}*/
+
+
+
+/*
+.nav {
+  .height(100%);
+}
+.nav-child {
+  margin-top:20px;
+}*/

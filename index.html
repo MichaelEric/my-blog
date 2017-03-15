@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>my_blog</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.css">
+</head>
+<body>
+    <!--头部导航部分-->
+    <header class="blog_topBar">
+        <!--导航条部分-->
+        <div class="container">
+            <nav class="navbar navbar-inverse blog_nav">
+                <div class="container-fluid">
+                    <div class="navbar-header nav-header">
+                        <button type="button" class="navbar-toggle collapsed nav_btn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">My_Blog</a>
+                    </div>
+                    <div class="collapse navbar-collapse nav-child" id="bs-example-navbar-collapse-1">
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">登陆</a></li>
+                            <li><a href="#">注册</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">菜单 <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">新闻资讯</a></li>
+                                    <li><a href="#">我的博客</a></li>
+                                    <li><a href="#">商品分享</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">退出</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--<div class="col-md-2">
+                <h2>我的博客</h2>
+            </div>
+            <div class="col-md-10">
+                <a href="javascript:;">登陆</a>
+                <a href="javascript:;">注册</a>-->
+            </div>
+        </div>
+
+    </header>
+    <!--轮播图部分-->
+    <div class="blog_banner">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href="javascript:;"class="pc_img  hidden-xs" style="background-image: url(./images/carousel-bg01.jpg);"></a>
+                    <a href="javascript:;" class="m_img hidden-sm hidden-md hidden-lg">
+                        <img src="./images/m-carousel-bg01.jpg" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:;"  class="pc_img hidden-xs" style="background-image: url(./images/carousel-bg02.jpg);"></a>
+                    <a href="javascript:;" class="m_img  hidden-sm hidden-md hidden-lg" >
+                        <img src="./images/m-carousel-bg02.jpg" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:;"  class="pc_img  hidden-xs" style="background-image: url(./images/carousel-bg03.jpg);"></a>
+                    <a href="javascript:;" class="m_img  hidden-sm hidden-md hidden-lg">
+                        <img src="./images/m-carousel-bg03.jpg" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:;"  class="pc_img hidden-xs" style="background-image: url(./images/carousel-bg04.jpg);"></a>
+                    <a href="javascript:;" class="m_img  hidden-sm hidden-md hidden-lg">
+                        <img src="./images/m-carousel-bg04.jpg" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:;"  class="pc_img hidden-xs" style="background-image: url(./images/carousel-bg05.jpg);"></a>
+                    <a href="javascript:;" class="m_img  hidden-sm hidden-md hidden-lg">
+                        <img src="./images/m-carousel-bg05.jpg" alt="">
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!--信息部分-->
+    <div class="blog_info">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-8 blog_main">
+                <!--上半部分-->
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12 ">
+                        <article class="blog_tester">
+                            <header>
+                                <img src="./images/blog_info/1.jpg" alt="">
+                                <h3>
+                                    <a href="#">新闻专区</a>
+                                </h3>
+                                <span>2017年3月14日</span>
+                                <hr>
+                            </header>
+                            <div class="body">
+                                &nbsp;&nbsp;Lorem ipsum dolor sit amdsadasdsadsadsadsdsadsadsadsadsadasdasdsa
+                                et, consecteturdsadasdasdasddsdsadasdasdsadsadsadasdasdasdasdasdsadasdasda adipisicing elit. Voluptatum, sit. Doloribus dolores neque eos. Velit eveniet, necessitatibus aut
+                            </div>
+                            <div class="moreBtn">
+                                <a href="#">阅读更多</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <article class="blog_tester">
+                            <header>
+                                <img src="./images/blog_info/2.jpg" alt="">
+                                <h3>
+                                    <a href="#">图片咨询</a>
+                                </h3>
+                                <span>2017年3月14日</span>
+                            </header>
+                            <hr>
+                            <div class="body">
+                                &nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sit. Doloribus dolores neque eos. Velit eveniet, necessitatibus aut sit tenetur perferendis!
+                            </div>
+                            <div class="moreBtn">
+                                <a href="#">阅读更多</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!--中间部分-->
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12 ">
+                        <article class="blog_tester">
+                            <header>
+                                <img src="./images/blog_info/3.jpg" alt="">
+                                <h3>
+                                    <a href="#">新闻专区</a>
+                                </h3>
+                                <span>2017年3月14日</span>
+                                <hr>
+                            </header>
+                            <div class="body">
+                                &nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sit. Doloribus dolores neque eos. Velit eveniet, necessitatibus aut                            </div>
+                            <div class="moreBtn">
+                                <a href="#">阅读更多</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <article class="blog_tester">
+                            <header>
+                                <img src="./images/blog_info/4.jpg" alt="">
+                                <h3>
+                                    <a href="#">图片咨询</a>
+                                </h3>
+                                <span>2017年3月14日</span>
+                            </header>
+                            <hr>
+                            <div class="body">
+                                &nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sit. Doloribus dolores neque eos. Velit eveniet, necessitatibus aut                            </div>
+                            <div class="moreBtn">
+                                <a href="#">阅读更多</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!--下半部分-->
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12 ">
+                        <article class="blog_tester">
+                            <header>
+                                <img src="./images/blog_info/3.jpg" alt="">
+                                <h3>
+                                    <a href="#">新闻专区</a>
+                                </h3>
+                                <span>2017年3月14日</span>
+                                <hr>
+                            </header>
+                            <div class="body">
+                                &nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sit. Doloribus dolores neque eos. Velit eveniet, necessitatibus aut                            </div>
+                            <div class="moreBtn">
+                                <a href="#">阅读更多</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <article class="blog_tester">
+                            <header>
+                                <img src="./images/blog_info/4.jpg" alt="">
+                                <h3>
+                                    <a href="#">图片咨询</a>
+                                </h3>
+                                <span>2017年3月14日</span>
+                            </header>
+                            <hr>
+                            <div class="body">
+                                &nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sit. Doloribus dolores neque eos. Velit eveniet, necessitatibus aut                            </div>
+                            <div class="moreBtn">
+                                <a href="#">阅读更多</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <aside class="col-md-4 blog_aside">
+                <div class="aside-widget">
+                    <header>
+                        <h3>标签</h3>
+                    </header>
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default  list_title">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        详细内容(一)
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in list_body" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object" src="./images/small_imgs/tec3.jpg" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Media heading</h4>
+                                            <p>dadasdasdasdsadasdasdadasdasdasdasdasdsdsdasdasdasdasdd</p>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object" src="./images/small_imgs/tec2.jpg" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Media heading</h4>
+                                            ...
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object" src="./images/small_imgs/bus4.jpg" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Media heading</h4>
+                                            ...
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object" src="./images/small_imgs/bus2.jpg" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Media heading</h4>
+                                            ...
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object" src="./images/small_imgs/bus3.jpg" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Media heading</h4>
+                                            ...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default  list_title">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Collapsible Group Item #2
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse  list_body" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object" src="./images/small_imgs/tec3.jpg" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Media heading</h4>
+                                            <p>dadasdasdasdsadasdasdadasdasdasdasdasdsdsdasdasdasdasdd</p>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object" src="./images/small_imgs/tec2.jpg" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Media heading</h4>
+                                            ...
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object" src="./images/small_imgs/bus4.jpg" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Media heading</h4>
+                                            ...
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object" src="./images/small_imgs/bus2.jpg" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Media heading</h4>
+                                            ...
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object" src="./images/small_imgs/bus3.jpg" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Media heading</h4>
+                                            ...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default  list_title">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Collapsible Group Item #3
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse list_body" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object" src="./images/small_imgs/tec3.jpg" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Media heading</h4>
+                                            <p>dadasdasdasdsadasdasdadasdasdasdasdasdsdsdasdasdasdasdd</p>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object" src="./images/small_imgs/tec2.jpg" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Media heading</h4>
+                                            ...
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object" src="./images/small_imgs/bus4.jpg" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Media heading</h4>
+                                            ...
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object" src="./images/small_imgs/bus2.jpg" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Media heading</h4>
+                                            ...
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object" src="./images/small_imgs/bus3.jpg" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Media heading</h4>
+                                            ...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="aside-widget">
+                    <header>
+                        <h3>更多新闻</h3>
+                    </header>
+                    <div class="body">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <span class="badge">14</span>
+                                <a href="javascript:;">Cras justo odio</a>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">14</span>
+                                <a href="javascript:;">Cras justo odio</a>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">14</span>
+                                <a href="javascript:;">Cras justo odio</a>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">14</span>
+                                <a href="javascript:;">Cras justo odio</a>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">14</span>
+                                <a href="javascript:;">Cras justo odio</a>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">14</span>
+                                <a href="javascript:;">Cras justo odio</a>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">14</span>
+                                <a href="javascript:;">Cras justo odio</a>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">14</span>
+                                <a href="javascript:;">Cras justo odio</a>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">14</span>
+                                <a href="javascript:;">Cras justo odio</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="aside-widget">
+                    <header>
+                        <h3>更多新闻</h3>
+                    </header>
+                    <div class="body">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <span class="badge">14</span>
+                                <a href="javascript:;">Cras justo odio</a>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">14</span>
+                                <a href="javascript:;">Cras justo odio</a>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">14</span>
+                                <a href="javascript:;">Cras justo odio</a>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">14</span>
+                                <a href="javascript:;">Cras justo odio</a>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">14</span>
+                                <a href="javascript:;">Cras justo odio</a>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">14</span>
+                                <a href="javascript:;">Cras justo odio</a>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">14</span>
+                                <a href="javascript:;">Cras justo odio</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="aside-widget">
+                    <header>
+                        <h3>标签</h3>
+                    </header>
+                    <div class="body tags">
+                        <ul>
+                            <li><a href="javascript:;">HTML5</a></li>
+                            <li><a href="javascript:;">CSS3</a></li>
+                            <li><a href="javascript:;">Javascript</a></li>
+                            <li><a href="javascript:;">Bootstrap</a></li>
+                            <li><a href="javascript:;">NodeJS</a></li>
+                            <li><a href="javascript:;">AngularJS</a></li>
+                            <li><a href="javascript:;">Less</a></li>
+                            <li><a href="javascript:;">Template</a></li>
+                            <li><a href="javascript:;">GIT</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+            </aside>
+        </div>
+        </div>
+    </div>
+    <!--底部部分-->
+    <footer class="blog_footer">
+        <div class="container">
+             <div class="row">
+                 <div class="footer_widget col-md-4">
+                     <header>
+                         <h3><span class=" glyphicon glyphicon-user"></span>AboutMe</h3>
+                     </header>
+                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                     <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.</p>
+                 </div>
+                 <div class="footer_widget col-md-4">
+                     <header>
+                         <h3><span class="glyphicon glyphicon-camera"></span>About</h3>
+                     </header>
+                     <div class="row">
+                         <ul>
+                             <li><a href="javascript:;"><img src="./images/small_imgs/bus2.jpg" alt=""></a></li>
+                             <li><a href="javascript:;"><img src="./images/small_imgs/bus3.jpg" alt=""></a></li>
+                             <li><a href="javascript:;"><img src="./images/small_imgs/tec2.jpg" alt=""></a></li>
+                             <li><a href="javascript:;"><img src="./images/small_imgs/bus3.jpg" alt=""></a></li>
+                             <li><a href="javascript:;"><img src="./images/small_imgs/tec3.jpg" alt=""></a></li>
+                             <li><a href="javascript:;"><img src="./images/small_imgs/bus3.jpg" alt=""></a></li>
+                             <li><a href="javascript:;"><img src="./images/small_imgs/bus4.jpg" alt=""></a></li>
+                             <li><a href="javascript:;"><img src="./images/small_imgs/tec4.jpg" alt=""></a></li>
+                         </ul>
+                     </div>
+                 </div>
+                 <div class="footer_widget col-md-4">
+                     <header>
+                         <h3><span class="glyphicon glyphicon-envelope"></span>Contact</h3>
+                     </header>
+                     <p>telphone:13641010830</p>
+                     <p>Email:13641010830@163.com</p>
+                 </div>
+             </div>
+        </div>
+    </footer>
+    <div class="footer_bottom">
+
+    </div>
+
+
+
+    <script src="./libs/jquery/jquery.min.js"></script>
+    <script src="./libs/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

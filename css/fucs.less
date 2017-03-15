@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+
+.color(@color:#000){
+  color: @color;
+}
+.radius(@radius:10px){
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius:@radius;
+  -o-border-radius:@radius;
+}
+.width(@width:100%){
+  width:@width;
+}
+
+.height(@height:50px){
+  height:@height;
+}
+.lineHeight(@height:50px){
+  line-height: @height;
+}
+//边框
+.border(@border:1px){
+  border:@border solid #ccc;
+}
+.borderColor(@color:#d9534f){
+  border-color: @color;
+}
+.borderTop(){
+  border-top:1px solid #0f0f0f;
+}
+.borderBottom(){
+  border-bottom:1px solid #0f0f0f;
+}
+.borderRight(){
+  border-right:1px solid #0f0f0f;
+}
+.borderLeft(){
+  border-left:1px solid #0f0f0f;
+}
+//字体
+.fontSize(@size:14px){
+  font-size: @size;
+}
+.fontFamily(@family:"Microsoft Yahei"){
+  font-family: @family;
+}
+.textAlign(@align:center){
+  text-align: @align;
+}
+//背景
+.backgroundColor(@color:#ccc){
+  background-color:#ccc;
+}
+//外边距
+.marginTop(@top:0px){
+  margin-top: @top;
+}
+.marginRight(@right:0px){
+  margin-right: @right;
+}
+.marginBottom(@bottom:0px){
+  margin-bottom: @bottom;
+}
+.marginLeft(@left:0px){
+  margin-left: @left;
+}
+//内边距
+.padding(@top:0,@right:0,@bottom:0,@left:0){
+  padding:@top @right @bottom @left;
+}
+.paddingTop(@top:0px){
+  padding-top: @top;
+}
+.paddingRight(@right:0px){
+  padding-right: @right;
+}
+.paddingBottom(@bottom:0px){
+  padding-bottom: @bottom;
+}
+.paddingLeft(@left:0px){
+  margin-left: @left;
+}
+//浮动
+.float(@float:left){
+  float:@float;
+}
+
+//动画
+.transition(@transition:1s){
+  transition: all @transition;
+}
+//阴影
+.boxShadow(){
+  box-shadow:2px 1px 4px  ;
+}
